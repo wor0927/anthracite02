@@ -1,0 +1,61 @@
+* a {margin: 0; padding: 0;box-sizing: border-box;font-family: "Bookman Old Style"; }
+
+body {background-color: #f4f4f4; background-color: #fff;}
+#wrap {position: relative;}
+#container { width: 30%; height: 750px;margin: 0 auto;background-color: #fff; box-shadow: 0px 15px 19px rgba(0,0,0,0.4); position: relative; border-radius: 5px; left: 0; background-image: url(../IMAGE/membership_back.png);}
+
+
+/*  sound  */
+    .cd_audio { width: 0px; height: 0px; opacity: 0; top: 0; position: absolute;}
+    .cd_audio video {width: 0px; height: 0px;}
+    .sound_icon {
+        width: 90px; 
+        height: 70px; 
+        cursor: pointer; 
+        position: absolute;
+        top: 90%;
+        right: 3%
+    }
+    .sound_icon ul li {width: 50%; height: 35px;  margin: 0 auto; text-align: center;}
+    .sound_icon ul li i {font-size: 35px;}
+
+/* 사운드 on/off */
+    .X_btn.pop { opacity: 0;}
+    .O_btn {position: absolute; right: 33px; top: 0; display: block;}
+
+
+
+/*LOGIN*/
+    .join_box {width: 100%; height: 100%; margin: 0 auto; float: left; text-align: center;  _background-color: beige;}
+    .join_mini {width: 40%; height: 35%; _background-color: aqua;  position: absolute; top: 30%; left: 30%;}
+    .J_box {width: 90%; height: 60px; margin: 10px auto; _background-color: bisque;}
+    .J_box p {font-weight: bold; padding-bottom: 10px;}
+
+
+    .J_btn {width: 90%; height: 100px;  padding-top: 20px; margin: 10px auto;}
+    .J_btn ul li {padding-top: 20px;}
+    .join_btn02 p {font-size: 18px; text-shadow:0px 4px 4px rgba(0,0,0,0.5); font-weight: bold; _color: #000; color: #394255;  transition: 0.5s;}
+
+/*  CD  */
+    .join_cd {
+        width: 40%; height: 55%; 
+        margin: 0 auto; 
+        float: left; 
+        position: absolute; 
+        top: 135px; left: 920px;  
+        z-index: -1;
+    }
+    .join_cd img { 
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.6); 
+        border-radius: 50%; 
+        animation: ani 5s linear infinite;
+        transform-origin: 50% 50%;
+    }
+    @keyframes ani {
+        100% {
+            transform: rotate(360deg);
+    }
+    
+    
+
+    

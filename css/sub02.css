@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0; font-family: "Bookman Old Style";}
+
+   html, body {
+      position: relative;
+      height: 100%;
+    }
+        
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+        
+#wrap {width: 100%; height: 100%;} 
+#container {width: 80%; height: 980px; margin: 0 auto;  padding: 100px 20px;}
+    .Journal {
+        width: 30%;
+        height: 960px; 
+        float: left;
+    }
+/*
+    .Journal p {
+        display: block; 
+        width: 100%; height: 100px; 
+        text-align: center; 
+        line-height:15;
+        font-size: 50px;
+        font-weight: bold;
+        
+     
+    }
+*/
+
+    p.typing-txt {display: none;}
+  
+    p.typing {  
+        top: 650px;
+        position: absolute;
+        font-size: 70px;
+        font-weight: bold;
+    /*       position: absolute;*/ 
+         display: inline-block; 
+          animation-name: cursor; 
+          animation-duration: 0.5s; 
+          animation-iteration-count: infinite; 
+        } 
+        @keyframes cursor{ 
+          0%{border-right: 1px solid #fff} 
+          50%{border-right: 1px solid #000} 
+          100%{border-right: 1px solid #fff} 
+        }
+.txt1 {position: absolute; line-height: 2;}    
+.txt1 p{ color: #fff; font-weight: bold; font-size: 25px;}
