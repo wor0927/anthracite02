@@ -361,7 +361,7 @@ p.typing {
 p.typing-txt {display: none;}
   
 p.typing { 
-        top: 20vh;
+        top: -45vh;
         left:20%;
         position: absolute;
         font-size: 55px;
@@ -432,7 +432,7 @@ p.typing {
 p.typing-txt {display: none;}
   
 p.typing { 
-        top: 20vh;
+        top: -60vh;
         left:15%;
         position: absolute;
         font-size: 55px;
