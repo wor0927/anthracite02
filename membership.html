@@ -23,16 +23,15 @@ $(function(){
         //엽서가 아래에서 slide
             $("#container").stop().animate({top:"0px"},1500);
 
-         var cur = 10;
+    
+    
+    
+            var cur = 10;
             var isOn= 0;
             
             $("form > .join_terms > li > textarea").hide();
             
-//            $("form>.join_terms>li").click(function(){
-//                $(this).find("img").toggleClass("on");
-//                $(this).find("textarea").toggle();
-//            }); 
-            
+
             $("form>.join_terms>li").click(function(){
                 //동일한것을 두번 눌렀을 경우  cur과 i 값이 동일 하므로 cur을 다른 값으로 setting
                 if (isOn == 1) {
@@ -82,7 +81,6 @@ $(function(){
         </div>
         
         <div id="join_box">
-<!--           <h4>회원정보 입력</h4>-->
             <form action="#">
                 <p>
                     <span><label for="M_ID">아이디</label></span> 
@@ -110,7 +108,7 @@ $(function(){
                         <option value="#">016</option>
                         <option value="#">017</option>
                         <option value="#">018</option>
-                    </select> - <input  size="5"> - <input type="text" size="5"> <input type="button" value="인증하기">
+                    </select> - <input  size="5" required="required"/> - <input type="text" size="5" required="required"/> <input type="button" value="인증하기">
                 </p>
                 <p>
                     <span><label for="J_SMS">SMS 인증번호</label></span> 
@@ -302,7 +300,7 @@ o 로그 기록
             
             
             <div class="SEND">
-                <input class="join_btn" type="submit" value="SEND">
+                <input class="join_btn" type="submit" name="SEND" value="SEND">
             </div>
           </form>  
         </div>
