@@ -98,7 +98,7 @@ p.typing {
     .table_layout > ul.list > li.table_tr > div {height: 40px;}
     .table_layout > ul.list > li.table_tr {font-size: 11px;}
     .button .page_wrap {height: 47px; margin-top: 40px;}
-    .button .page_wrap a {padding: 4px 8px; border: 1px solid #e0e0e0; margin: 0 2px; display: inline-block;}
+    .button .page_wrap a {padding: 4px 8px; border: 1px solid #e0e0e0; margin: 0 2px; display: inline-block; font-weight: bold;}
     .button .page_wrap span a {font-size: 13px; padding-top: 7px; padding-bottom: 5px;}
     .table_layout1 > ul > li .num {width: 30%; padding: 5px !important;}
     .table_layout1 > ul > li .subject {padding: 5px !important;}

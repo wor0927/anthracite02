@@ -428,10 +428,10 @@ body::-webkit-scrollbar {
     .J_box input { width: 120px; }
     
     .txt01 p { width: 25%; font-weight: bold; padding-bottom: 10px; color: #777;}
-    .txt01 p label { margin-left: 12px; font-size: 14px;}
+    .txt01 p label {  padding-left: 60px; font-size: 14px;}
     
     .txt02 p { width: 25%; font-weight: bold; padding-bottom: 10px;  color: #777;}
-    .txt02 p label { margin-left: 14px; font-size: 14px;}
+    .txt02 p label { padding-left: 30px; font-size: 14px;}
     
     .J_btn {width: 100%; height: 80px;  padding-top: 20px; margin: 10px auto; }
     .J_btn ul {width: 90%; height: 100%; margin: 0 auto;}
@@ -472,7 +472,7 @@ body::-webkit-scrollbar {
 /*★★일곱번째(아이폰SE)★★*/
 @media screen and (max-width:320px) {
  #container { 
-        width:200px; 
+        width:225px; 
         height: 280px;
         margin: 0 auto;
         background-color: #fff; 
@@ -512,13 +512,13 @@ body::-webkit-scrollbar {
     .J_box input { width: 100px; float: left;}
     
     .txt01 p { width:90%; font-weight: bold; padding-bottom: 10px; color: #777; }
-    .txt01 p label { text-align: center; font-size: 12px;}
+    .txt01 p label { text-align: center; font-size: 12px; margin-left: 0px;}
     
     .txt02 p { width:90%; font-weight: bold; padding-bottom: 10px;  color: #777;}
-    .txt02 p label { margin-left: 14px; font-size: 12px;}
+    .txt02 p label { margin-left: 0px; font-size: 12px;}
     
     .J_btn {width: 100%; height: 40px;   margin: 0px auto;  padding-top: 0; }
-    .J_btn ul {width: 90%; height: 100%; margin: 0 auto; padding-top: 0; }
+    .J_btn ul {width: 55%; height: 100%; margin: 0 auto; padding-top: 0; }
     .J_btn ul li { width:  50%; float: left; }
     .join_btn01 { font-size: 12px; text-shadow:0px 4px 4px rgba(0,0,0,0.4); font-weight: bold; color: #777; transition: 0.5s; cursor: pointer;}
     .join_btn02 p {font-size: 12px; text-shadow:0px 4px 4px rgba(0,0,0,0.4); font-weight: bold; color: #777;  transition: 0.5s; padding-top: 3px;}

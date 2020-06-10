@@ -91,7 +91,8 @@ p.typing {
 /*텍스트 타이핑*/
 p.typing-txt {display: none;}
 p.typing {  
-        top: 650px;
+        top: 200px;
+        left: 5%;
         position: absolute;
         font-size: 70px;
         font-weight: bold;
@@ -148,8 +149,8 @@ p.typing {
 p.typing-txt {display: none;}
   
 p.typing { 
-        top: 480px;
-        left: 5%;
+        top: 50px;
+        left: 10%;
         position: absolute;
         font-size: 50px;
         font-weight: bold;
@@ -221,8 +222,8 @@ p.typing {
 p.typing-txt {display: none;}
   
 p.typing { 
-        top: 480px;
-        left: 5%;
+        top: 50px;
+        left: 10%;
         position: absolute;
         font-size: 50px;
         font-weight: bold;
@@ -288,8 +289,8 @@ p.typing {
 p.typing-txt {display: none;}
   
 p.typing { 
-        top: 465px;
-        left:4%;
+        top: 50px;
+        left:1%;
         position: absolute;
         font-size: 38px;
         font-weight: bold;
@@ -332,7 +333,7 @@ p.typing {
         z-index: 1;}
     
    .swiper-slide {
-    width: 50%!important;
+    width: 60%!important;
   
     } 
     

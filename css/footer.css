@@ -66,7 +66,9 @@
 
 /*  ★★ PC 가로 ★★*/
 @media all and (min-width:1024px)and (max-width:1279px) {
-        /* Btn */
+        
+    
+    /* Btn */
       #slide_up {
         width: 50px; 
         height: 50px; 
@@ -143,7 +145,7 @@
         height: 50px; 
         float: right;
         right: 20px;
-        top: 950px;
+        top: 750px;
         position: fixed;
         border-radius: 50%;
     }
@@ -163,10 +165,10 @@
  /*footer*/
     #footer {
         width: 100%; 
-        height: 100%; 
-        
+        height: 40vh;
+        padding-top:30px;
         }
-
+    
     #f_logo { 
         width: 10%; 
         height:250px;  
@@ -198,7 +200,7 @@
 
     
     #f_text ul .call {float: right; }
-    #f_text ul .call p {font-size: 12px; margin-bottom: 5px;}
+    #f_text ul .call p {font-size: 15px; margin-bottom: 5px;}
     #f_text ul .call a { color: #565656;  }
 
     
@@ -211,45 +213,44 @@
 
 /*  ★ ★모바일 아이폰 가로*★★*/
 @media all and (min-width:321px) and (max-width:767px){
-         /* Btn */
+            /* Btn */
       #slide_up {
-        width: 40px; 
-        height:40px; 
+        width: 30px; 
+        height:30px; 
         float: right;
         right: 10px;
-        top: 600px;
+        top: 720px;
         position: fixed;
         border-radius: 50%;
     }
     #slide_up a {
         display: block;
-        width: 40px; 
-        height: 40px;  
+        width: 30px; 
+        height: 30px;  
         background-color: #eee;
         border-radius: 50%;
         text-align: center;
-        line-height:3.5;
+        line-height:2.7;
     }
     
-     #slide_up a img {
-        width: 30px;
-        height: 30px;
+    #slide_up a img {
+        width: 25px;
+        height: 25px;
        
     }
-   
  /*footer*/
     #footer {
         width: 100%; 
-        height: 50vh; 
-
+        height: 40vh;
+        padding-top:30px;
         }
 
     #f_logo { 
         width: 30%; 
-        height:200px;  
+        height:150px;  
         text-align: center; 
         margin: 0 auto; 
-        line-height: 20;
+        line-height: 13;
     }
     #f_logo a img {
         width: 80px; 
@@ -257,30 +258,38 @@
     }
 
     #f_text {
-        display: none;
+       
         width: 100%; 
-        height:150px; 
+        height:170px; 
 
     }
     #f_text ul {
         margin: 0 auto;
-        width: 90%; 
+        width: 95%; 
         height: 100%; 
     }
 
     #f_text ul .address {
+        width: 100%;
         float: left; 
         font-family: "Bookman Old Style";
+        color: #999; 
+        opacity: .5; 
     }
-    #f_text ul .address p {font-size: 18px;}
+    #f_text ul .address p {font-size: 10px;}
 
     
-    #f_text ul .call {float: right; }
-    #f_text ul .call p {font-size: 16px;}
-    #f_text ul .call a { color: #565656;  }
+    #f_text ul .call {
+        width: 100%;
+        float: left; 
+        margin-top: 20px;  
+        color: #999;opacity: .5;  
+    }
+    #f_text ul .call p {font-size: 11px;  }
+    #f_text ul .call a {  color: #000;   }
 
 }
-/*  ★ ★★★*/
+/*  ★★아이폰SE ★★*/
 @media all and (max-width:320px){
     
             /* Btn */
@@ -311,17 +320,17 @@
  /*footer*/
     #footer {
         width: 100%; 
-        height: 40vh;
-        
+        height: 30vh;
+        padding-top:30px;
 
         }
 
     #f_logo { 
         width: 30%; 
-        height:200px;  
+        height:150px;  
         text-align: center; 
         margin: 0 auto; 
-        line-height: 20;
+        line-height: 13;
     }
     #f_logo a img {
         width: 80px; 
@@ -330,8 +339,9 @@
 
     #f_text {
         display: none;
+        margin-top: 10px;
         width: 100%; 
-        height:150px; 
+        height:170px; 
 
     }
     #f_text ul {
@@ -343,13 +353,17 @@
     #f_text ul .address {
         float: left; 
         font-family: "Bookman Old Style";
+        color: #999; 
+        opacity: .5; 
     }
-    #f_text ul .address p {font-size: 18px;}
+    #f_text ul .address p {font-size: 11px;}
 
     
-    #f_text ul .call {float: right; }
-    #f_text ul .call p {font-size: 16px;}
-    #f_text ul .call a { color: #565656;  }
+    #f_text ul .call {float: left; margin-top: 20px; color: #999;opacity: .5;}
+    #f_text ul .call p {font-size: 10px;}
+    #f_text ul .call a {  color: #000;   }
 
-    
 }
+    
+    
+    
