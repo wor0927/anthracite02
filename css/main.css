@@ -117,7 +117,7 @@
         }
 
     
-    .visual_Roll div.on { background-color: beige; display: block;}
+    .visual_Roll div.on { display: block;}
 
     /*img shadow */
     .v_img01 ul li img {box-shadow: -3px 2px 20px -9px;}
@@ -188,12 +188,7 @@
         width: 620px; 
         height: 830px; 
         }
-    .v_img02 ul li:nth-child(2) {
-        width: 575px; 
-        height: 605px;  
-        bottom: 0; 
-        right: 0px; 
-        }
+   
     /*img shadow */
     .v_img02 ul li img {box-shadow: -3px 2px 20px -9px;}
 
@@ -256,12 +251,16 @@
         }
     .v_img03 ul li:nth-child(2) {
         width: 575px; 
-        height: 605px;  
-        bottom: -150px; 
-        right: 0px; 
+        height: 700px;  
+        bottom: 0px; 
+        right: 25px; 
         }
     /*img shadow */
-    .v_img03 ul li img {box-shadow: -3px 2px 20px -9px;}
+    .v_img03 ul li img {    
+        width: 100%;
+        height: 100%; 
+        box-shadow: -3px 2px 20px -9px;
+        }
 
     .v_text03 { 
         width: 50%; 
@@ -748,7 +747,7 @@
         margin: 0 auto;
         width: 80%; 
         height: 300px;   
-        margin-top:  330px;
+        margin-top:  290px;
         }
     .v_text01 ul li { 
         width: 100%; 
@@ -756,7 +755,7 @@
         }
 
     .v_text01 ul li p { 
-        font-size:18px;
+        font-size:17px;
         font-family: "HYMyeongJo-Extra";
         color: rgb(0, 0, 0);
         line-height: 1.5;
@@ -789,16 +788,19 @@
         
         }
     .v_img02 ul li { 
-        position: absolute; 
+       
         width: 100%;
        height: 950px;   
-        _left: -90px;
+        
         }
-
+    .v_img02 ul li:nth-child(1) {
+        width: 100%; 
+        height: 950px; 
+        }
 
  
     /*img shadow */
-    .v_img02 ul li img {width: 600px; box-shadow: -3px 2px 20px -9px;}
+    .v_img02 ul li img {width: 100%; height: 750px; box-shadow: -3px 2px 20px -9px;}
 
 
     .v_text02 { 
@@ -813,7 +815,7 @@
         margin: 0 auto;
         width: 80%; 
         height: 300px;   
-        margin-top:  330px;
+        margin-top:  290px;
         }
     .v_text02 ul li { 
         width: 100%; 
@@ -821,7 +823,7 @@
         }
 
     .v_text02 ul li p { 
-        font-size:18px;
+        font-size:17px;
         font-family: "HYMyeongJo-Extra";
         color: rgb(0, 0, 0);
         line-height: 1.5;
@@ -856,8 +858,8 @@
         height:750px; 
         }
      .v_img03 ul li:nth-child(2) img{
-        width: 430px; 
-        height:750px; 
+        width: 390px; 
+        height:490px; 
         }
     
     .v_img03 ul li:nth-child(1) {
@@ -870,7 +872,7 @@
         width: 575px; 
         height: 605px;  
         bottom: 30px; 
-        right: -110px; 
+        right: -130px; 
         }
     /*img shadow */
     .v_img03 ul li img {box-shadow: -3px 2px 20px -9px;}
@@ -887,7 +889,7 @@
         margin: 0 auto;
         width: 80%; 
         height: 300px;   
-        margin-top:  330px;
+        margin-top:  290px;
         }
     .v_text03 ul li { 
         width: 100%; 
@@ -895,7 +897,7 @@
         }
 
     .v_text03 ul li p { 
-        font-size:18px;
+        font-size:17px;
         font-family: "HYMyeongJo-Extra";
         color: rgb(0, 0, 0);
         line-height: 1.5;
@@ -1086,7 +1088,6 @@
         }
     .v_img02 ul li { position: absolute; }
     .v_img02 ul li:nth-child(1) {
-        
         width: 100%; 
         height: 100%;
     }
