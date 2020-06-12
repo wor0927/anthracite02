@@ -44,12 +44,12 @@ $(function(){
                 if (cur != i ){
                     $("form > .join_terms > li > textarea").hide();
                     $("form > .join_terms > li > img").removeClass();
-                    $(this).find("img").addClass("on");
+                    $(this).find("img").addClass("pop");
                     $(this).find("textarea").slideDown();
                     isOn = 2; //슬라이드가 down상태
                     
                 } else {
-                    $("form > .join_terms > li > img").removeClass("on");
+                    $("form > .join_terms > li > img").removeClass("pop");
                     $(this).find("textarea").slideUp();
                                  isOn = 1; //슬라이드가up상태
                 }

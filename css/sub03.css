@@ -1,4 +1,4 @@
-        *{margin: 0; padding: 0; font-family: "Bookman Old Style"; }
+        *{margin: 0; padding: 0; font-family: "NanumMyeongjo-Bold"; }
         #container {width: 100%; height: 100%; }
         
 /* section01 */
@@ -32,9 +32,9 @@
         .section03 .From .S_T03 ul li {float: left; padding-right: 15px; font-size: 16px;}
         .section03 .From .S_T03 ul li p{font-size: 14px; font-weight: normal;}
         
-        .section03 .From .txt04 ul {width: 40; margin: 0 auto;}
-        .section03 .From .txt04 ul li { padding-left: 10px;}
-        .section03 .From .txt05 ul {width: 15%; margin: 0 auto;  padding-left: 25px;}
+        .section03 .From .txt04 ul {width: 30%; margin: 0 auto;}
+        .section03 .From .txt04 ul li { padding-left: 5px;}
+        .section03 .From .txt05 ul {width: 12%; margin: 0 auto;  padding-left: 25px;}
         
         .section03 .join_btn {width: 10%; margin: 0 auto; text-align: center; font-weight: bold; border: 0; font-size: 30px; color: #eee; text-shadow:-1px -1px white, 1px 1px #666;  transition: 0.5s; cursor: pointer; border-radius: 30%; }
         .section03 .S_Btn03 {text-align: center; padding-top: 80px;}
@@ -381,6 +381,8 @@
         .section03 .From .txt04, .txt05, .txt06 {width: 100%;  height: 120px;  padding-top: 10px; }
         .section03 .From input {padding-top: 5px;}
         .section03 .From .txt01 p, .txt02 p, .txt03 p, .txt06 p { margin-bottom: 10px;}
+    
+  
         
         .section03 .From .S_T03 span {margin:0 10px;}
         .section03 .From .S_T03 p{font-weight: bold; font-size: 14px;}

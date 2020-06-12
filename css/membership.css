@@ -128,7 +128,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -289,7 +289,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -453,7 +453,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -630,7 +630,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -821,7 +821,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -1005,7 +1005,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -1196,7 +1196,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
 }
@@ -1381,7 +1381,7 @@ form > .join_terms > li > .join_down {
     cursor: pointer;
     transition: all 0.5s;
 }
-.on {
+.pop {
     transform: rotate(180deg);
     transition: all 0.5s;
     position: relative;

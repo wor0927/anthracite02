@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">    
 <!--    <script src="js/jquery-3.4.1.min.js"></script>-->
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
     <title>header</title>
     
 <script>
@@ -12,12 +15,12 @@
         //nav bar 아래로 슬라이드
         var btn_main = $("#header > .h_btn > ul")
         var icon_main = $("#header > .h_btn > ul > li")
-         var IMG = $("#header > .h_btn > ul > li > img")
+        var IMG = $("#header > .h_btn > ul > li > img")
         var search = $("#search")
         
       
         icon_main.click(function(){ icon_main.toggleClass("on").css({'transition':'0.5s'}),
-            search.slideToggle();
+        search.slideToggle();
         });
         
         //검색창 나오기
@@ -25,17 +28,19 @@
             $(".fa-search").toggleClass('in');
             $('.S_box').toggleClass('open');
             $("input[type=search]").toggleClass('inopen');
+        });     
+        
+        $('.h_btn').click(function(){
+            $(".hit01").stop().toggleClass("hit_on").css({transition:"0.5s"});
+            $(".hit02").stop().toggleClass("hit_on").css({transition:"0.6s"});
+            $(".hit03").stop().toggleClass("hit_on").css({transition:"0.7s"});
         });
-          
-         
-       
-        
-     
         
         
-        
-});         
-        
+
+
+  
+}); 
   
 </script>
 
@@ -83,9 +88,9 @@
         </div>
         <div class="s_Text">
             <ul>
-                <li><a href="#"><p>SHOP</p></a></li>
-                <li><a href="#"><p>JOURNAL</p></a></li>
-                <li><a href="#"><p>CONTACT…</p></a></li>
+                <li><a href="#"><p class="hit01 hit">SHOP</p></a></li>
+                <li><a href="#"><p class="hit02 hit">JOURNAL</p></a></li>
+                <li><a href="#"><p class="hit03 hit">CONTACT…</p></a></li>
             </ul>
         </div>
     </div>
