@@ -32,7 +32,8 @@ p.typing {
 
 .section {width: 100%; margin: 0 auto; overflow: hidden; background: #fff;}
 /*.section1 {margin-top: 100px; margin-bottom: 100px;}*/
-.section h2 {font-size: 20px; padding: 5px 0px 5px 10px; color: #999; background-color: #eee; font-weight: bold;}
+
+.table_th {font-size: 18px; padding: 5px 0px 5px 10px; color: #999; background-color: #eee; font-weight: bold; }
 
 #menu_list > ul {display: flex; text-align: center; padding-top: 20px; padding-bottom: 30px;}
 #menu_list > ul > li {flex: 1; border-top: 1px solid #a6a6a6; padding: 15px 0px; margin: 0 10px; color: #a6a6a6; cursor: pointer; font-size: 16px;}
